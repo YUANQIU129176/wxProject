@@ -1,0 +1,76 @@
+.search-wrapper {
+    background: #dd434f;
+    padding: 20rpx;
+    .search-input {
+      background: #fff;
+      height: 60rpx;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .searchKey {
+        color: #999;
+        font-size: 15px;
+      }
+    }
+  }
+  // 轮播图
+  .banner_all {
+    swiper-item {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  // 导航栏
+  .nav-wrpper {
+    padding: 20rpx 0;
+    .navIco {
+      display: flex;
+      justify-content: space-around;
+      img {
+        width: 128rpx;
+        height: 140rpx;
+      }
+    }
+  }
+  
+  // 楼层商品样式
+  .floor_all {
+    padding: 10px 0;
+    .floor_title {
+      margin: 10px 0;
+      height: 50rpx;
+      img {
+        height: 50rpx;
+        width: 100%;
+      }
+    }
+    .product {
+      display: flex;
+      .product_left {
+        margin-right: 8px;
+        img {
+          width: 232rpx;
+          height: 385rpx;
+        }
+      }
+      .product_right {
+        flex:1;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        a {
+          // margin-right: 10px;
+          margin-right: 8px;
+          display: block;
+          width: 232rpx;
+          height: 188rpx;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
